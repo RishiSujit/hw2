@@ -7,7 +7,7 @@ class Book : public Product {
 public:
   Book(const std::string category, const std::string name, double price, int qty, const std::string isbn, const std::string author);
   ~Book();
-  //three functions
+  //three major functions
   std::string displayString() const;
   void dump(std::ostream& os) const;
   std::set<std::string> keywords() const;
